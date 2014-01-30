@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>0.0.1</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://raw.github.com/aminjam/Aminjam.Owin.Security/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/aminjam/Aminjam.Owin.Security</projectUrl>
+    <iconUrl>http://www.gravatar.com/avatar/e15e9b4bba12c51f01db0e2654fa1eb8.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ASP.NET MVC5 ships with a few default OAuth Providers e.g. Facebook and Google. This is an Instagram extension for the default OAuth provider list. It is important to note that like all OAuth provider, the identity of the signed up user with the OAuth provider may or may not have been verified.</description>
+    <summary>Extending the default Microsoft.Owin.Security implementation for the OAuth providers to Instagram.</summary>
+    <copyright>Copyright 2014</copyright>
+    <tags>Instagram Owin OAuth Security</tags>
+	<dependencies>
+		<dependency id="Microsoft.Owin.Security" version="2.1.0" />
+		<dependency id="Newtonsoft.Json" version="5.0.8" />
+    </dependencies>
+  </metadata>
+</package>
