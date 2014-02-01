@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aminjam.Owin.Security.Fours
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aminjam.Owin.Security.Instagram", "Aminjam.Owin.Security.Instagram\Aminjam.Owin.Security.Instagram.csproj", "{16A037CE-C5E5-43A6-B3C0-B6F686F0E466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aminjam.Owin.Security.Fitbit", "Aminjam.Owin.Security.Fitbit\Aminjam.Owin.Security.Fitbit.csproj", "{D4444EA8-3328-4161-9C9B-9F26DA2B25AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aminjam.Owin.Security.Glass", "Aminjam.Owin.Security.Glass\Aminjam.Owin.Security.Glass.csproj", "{9C83FB50-E45E-40BD-8EEF-4C1F5D035F5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +32,14 @@ Global
 		{16A037CE-C5E5-43A6-B3C0-B6F686F0E466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16A037CE-C5E5-43A6-B3C0-B6F686F0E466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16A037CE-C5E5-43A6-B3C0-B6F686F0E466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4444EA8-3328-4161-9C9B-9F26DA2B25AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4444EA8-3328-4161-9C9B-9F26DA2B25AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4444EA8-3328-4161-9C9B-9F26DA2B25AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4444EA8-3328-4161-9C9B-9F26DA2B25AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C83FB50-E45E-40BD-8EEF-4C1F5D035F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C83FB50-E45E-40BD-8EEF-4C1F5D035F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C83FB50-E45E-40BD-8EEF-4C1F5D035F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C83FB50-E45E-40BD-8EEF-4C1F5D035F5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
