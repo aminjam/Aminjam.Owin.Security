@@ -153,7 +153,7 @@ namespace Aminjam.Owin.Security.Instagram
                 GenerateCorrelationId(properties);
 
                 // comma separated
-                string scope = string.Join(",", Options.Scope);
+                string scope = string.Join("+", Options.Scope);
 
                 string state = Options.StateDataFormat.Protect(properties);
 
