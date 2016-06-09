@@ -162,7 +162,7 @@ namespace Aminjam.Owin.Security.Instagram
                         "?response_type=code" +
                         "&client_id=" + Uri.EscapeDataString(Options.ClientId) +
                         "&redirect_uri=" + Uri.EscapeDataString(redirectUri) +
-                        "&scope=" + Uri.EscapeDataString(scope) +
+                        "&scope=" + scope +
                         "&state=" + Uri.EscapeDataString(state);
 
                 Response.Redirect(authorizationEndpoint);
