@@ -70,7 +70,11 @@ namespace Aminjam.Owin.Security.Instagram
                                                     "&redirect_uri=" + Uri.EscapeDataString(redirectUri) +
                                                     "&client_id=" + Uri.EscapeDataString(Options.ClientId) +
                                                     "&client_secret=" + Uri.EscapeDataString(Options.ClientSecret));
-
+				
+				// Replace the default content-type so instagram parses postContent
+				postContent.Headers.Remove("Content-Type");
+                postContent.Headers.Add("Content-Type", "application/x-www-form-urlencoded");
+				
                 HttpResponseMessage tokenResponse =
                     await _httpClient.PostAsync(TokenEndpoint, postContent, Request.CallCancelled);
                 tokenResponse.EnsureSuccessStatusCode();
